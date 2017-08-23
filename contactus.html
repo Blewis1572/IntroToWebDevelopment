@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <link href="restaurantStyles.css" 
+      rel="stylesheet" 
+      type="text/css"/>
+<head>
+    <title>Tomato King</title>
+    <style>
+        form{align: "center"}
+    </style>
+</head>
+<body>
+    <h1 style=font-family:fantasy><center>Tomato King</center></h1>
+    <hr/>
+    <table>
+        <tr>
+            <th><a href="home.html">Home</a></th>
+            <th><a href="menu.html">Menu</a></th>
+            <th><a href="contactus.html">Contact Us</a></th>
+        </tr>
+    </table>
+    <form align="center" action="fakepage.html" method="POST" style=font-weight:bold>
+        Name: <input type="text" name="Name" /><br/>
+        Email: <input type="text" name="Email" /><br/>
+        Phone: <input type="text" name="Phone" /><br/>
+        Reason for Inquiry: <select name="Inquiry">
+                                <option value="Catering">Catering</option>
+                                <option value="Private Party">Private Party</option>
+                                <option value="Feedback">Feedback</option>
+                                <option value="Other">Other</option>
+                            </select><br/>
+        Additional Information: <textarea name="Additional Info"></textarea><br/>                    
+        Have you been to the restaurant? <input type="radio" name="answer" value="No" checked/>No
+                                         <input type="radio" name="answer" value="Yes"/>Yes<br/>
+        Best days to contact you: <input type="checkbox" name="BestDay" value="M"/>M
+                                  <input type="checkbox" name="BestDay" value="T"/>T
+                                  <input type="checkbox" name="BestDay" value="W"/>W
+                                  <input type="checkbox" name="BestDay" value="Th"/>Th
+                                  <input type="checkbox" name="BestDay" value="F"/>F<br/>
+        <input type="submit" value="Send Request"/><br/>
+    </form>
+</body>
+<footer>
+    <center>
+    <hr/>
+    1895 Tomato Lane, Fictionville, California, 12345<br/>
+    (111) 111-1111
+    </center>
+</footer>
+</html>

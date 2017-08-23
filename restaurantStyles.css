@@ -1,0 +1,8 @@
+#style
+    head{font-weight: bold}
+    footer{font-weight: bold}
+    a{text-decoration: underline}
+    a:link{color: red}
+    a:visited{color: orange}
+    a:hover{font-weight: bold}
+    a:active{text-decoration: none}
